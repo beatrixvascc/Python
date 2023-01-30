@@ -1,0 +1,3 @@
+import os
+for diretorio in os.listdir('./'):
+    print(diretorio)
