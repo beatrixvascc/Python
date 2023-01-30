@@ -1,0 +1,4 @@
+import base64
+with open(".vscode\imagem\gato gordo e feio.jpg", 'rb') as arquivo:
+    arquivotexto = base64.b64encode(arquivo.read())
+    print(arquivotexto)
