@@ -1,0 +1,14 @@
+import json
+gatos = [
+    {
+        'miau': '2 anos',
+        'ana vitoria': '11 meses',
+        'benji':'5 anos'
+        }
+    ,{
+        'princesa': '5 anos',
+        'valentina': '10 meses',
+        'benjamim': '4 meses'
+        }
+] 
+print(json.dumps(gatos, ensure_ascii=False, indent=True))   
