@@ -1,0 +1,12 @@
+#Faça um programa que leia uma lista de 10 caracteres, e diga quantas consoantes foram lidas. 
+#Imprima as consoantes.
+
+lista = []
+consoantes = 0
+print('Informe os caracters')
+for i in range(10):
+    lista.append((input('Caracter  '+ str(i+1) + ':\n')))
+ 	caractere = lista[i]
+ 	if caractere not in ('a','e','i','o','u'):
+        consoantes += 1
+print(consoantes)
