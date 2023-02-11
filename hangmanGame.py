@@ -22,8 +22,7 @@ def option(): ##escolhe as letras
        if letter in alphabet and len(letter)==1:
            valid=True
        else:
-           print("the letter doens't exist")   
-           
+           print("the letter doens't exist")     
     return letter    
  
 def showing(choose): ##coloca as tentativas certas
